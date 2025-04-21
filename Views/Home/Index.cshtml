@@ -1,0 +1,31 @@
+﻿@{
+
+    var integrantes = ViewBag.Integrantes as Dictionary<int, Integrante>;
+}
+
+<header>
+<img src= "/img/626631.png" alt="Logo" class="styled-image">
+</header>
+<body>
+<main>
+@foreach (var integrante in integrantes.Values)
+{
+    <section>
+        <h1>@integrante.DatosPersonales.Nombre @integrante.DatosPersonales.Apellido</h1>
+         <div>
+            <h2><a asp-action="SelectIntegrante" asp-route-dni="@integrante.DNI">Ver Datos Personales</a></h2>
+        </div>
+        <div>
+            <h2><a asp-action="MostrarDatosFamiliares" asp-route-dni="@integrante.DNI">Ver Familiares</a></h2>
+        </div>
+        <div>
+           <h2> <a asp-action="MostrarDatosInteres" asp-route-dni="@integrante.DNI">Ver Intereses</a></h2>
+        </div>
+        <div>
+        <img src="/img/@integrante.DatosPersonales.Foto" alt="Foto" width="auto" height="350">
+        </div>
+    </section>
+}
+</main>
+</body>
+

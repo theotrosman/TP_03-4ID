@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TP03_Tanel_Dobrovitzky/1.0.0": {
+        "runtime": {
+          "TP03_Tanel_Dobrovitzky.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TP03_Tanel_Dobrovitzky/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

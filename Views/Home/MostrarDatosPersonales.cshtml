@@ -1,0 +1,24 @@
+<header>
+<a asp-action="Index">
+<img src= "/img/626631.png" alt="Logo" class="styled-image" >
+</a>
+</header>
+<body>
+<main>
+
+
+
+<h1>
+@ViewBag.integrante.DatosPersonales.Nombre @ViewBag.integrante.DatosPersonales.Apellido
+</h1>
+
+<h6>
+Cumpleaños: @ViewBag.integrante.DatosPersonales.FechaNacimiento.ToShortDateString()
+</h6>
+<footer>
+<img src="/img/@ViewBag.integrante.DatosPersonales.Foto" alt="Foto" width="500" height="auto">
+</footer>
+
+
+</main>
+</body>

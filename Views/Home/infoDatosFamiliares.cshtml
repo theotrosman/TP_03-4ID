@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Grupo de Programación";
+    var integrantes = ViewBag.Integrantes as Dictionary<int, Integrante>;
+}
+
+
+<header>
+
+<a asp-action="Index">
+<img src= "/img/626631.png" alt="Logo" class="styled-image" >
+</a>
+
+    <h6>Familiares de @ViewBag.integrante.DatosPersonales.Nombre @ViewBag.integrante.DatosPersonales.Apellido</h6>
+</header>
+<body>
+<main>
+@foreach(DatoFamiliar Dato in ViewBag.integrante.DatosFamiliares)
+{
+    <section>
+    <div>
+    <h1>@Dato.Parentesco</h1>
+    <h5>Nombre: @Dato.Nombre</h5>
+    <br>
+    <h5>Apellido: @Dato.Apellido</h5>
+    <br>
+    <h5>@Dato.Descripción</h5>
+    </div>
+    </section>
+}
+
+</main>
+</body>

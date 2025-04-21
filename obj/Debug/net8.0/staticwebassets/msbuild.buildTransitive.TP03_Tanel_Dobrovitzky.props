@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TP03_Tanel_Dobrovitzky.props" />
+</Project>
