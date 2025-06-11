@@ -25,5 +25,3 @@ Este proyecto consiste en el desarrollo de una plataforma web utilizando ASP.NET
 - MVC Pattern
 - Razor Pages
 
-##👨‍💻 Autor
-Theo Trosman – @theotrosman
