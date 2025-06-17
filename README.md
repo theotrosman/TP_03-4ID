@@ -1,4 +1,4 @@
-# TP_03-4ID - Plataforma MVC para Visualización de Equipos
+# TP_03-4ID - Plataforma MVC para Visualización de Equipos 
 
 Este proyecto consiste en el desarrollo de una plataforma web utilizando ASP.NET Core MVC. Su objetivo es permitir a los usuarios visualizar información de un equipo asignado para la realización de un trabajo.
 
